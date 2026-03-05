@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: test
         run: |
-            echo "java -XX:+PrintFlagsFinal -version"
+            java -XX:+PrintFlagsFinal -version
